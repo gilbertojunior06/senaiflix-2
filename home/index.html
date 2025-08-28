@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENAIFLIX- Filmes e Séries</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="../assets/style/global.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="index.html">SENAIFLIX</a>
+        <img id="menu-btn" class="hambuguer-menu" src="../assets/icons/" 
+        alt="">
+        <nav>
+            <a href="#">Início</a>
+            <a href="#titulo-filmes">Filmes</a>
+            <a href="#titulo-serie">Séries</a>
+        </nav>
+        <nav class="menu-mobile" id="menu-mobile">
+            <a href="#">Início</a>
+            <a href="#titulo-filmes">Filmes</a>
+            <a href="#titulo-serie">Séries</a>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="div-banner">
+                <h2>Assitir agora</h2>
+                <p>ao saber que tem câncer, um professor passa a fabrircar metanfetamina pelo futuro da familia, mudando o detino de todos.
+                </p>
+            </div>
+        </section>
+        <div class="inputs">
+            <div class="pesquisa">
+                <label for="pesquisar">Pesquise por Filmes e/ ou séries:</label>
+                <input type="text" placeholder="Insira um titulo" 
+                id="pesquisar">
+            </div>
+
+            <div class="filtro">
+                <label for="genero">Filtrar por gênero:</label>
+                <select name="genero" id="genero">
+                    <option selected value="">Selecione um gênero</option>
+                    <option value="Drama">Drama</option>
+                    <option value="Romance">Romance</option>
+                    <option value="Terror">Terror</option>
+                    <option value="Ficção Cientifica">Ficção Cientifica</option>
+                    <option value="Thriller">Thriller</option>
+                    <option value="Comédia">Comédia</option>
+                    <option value="Animação">Animação</option>
+                    <option value="Aventura">Aventura</option>
+                    <option value="Crime">Crime</option>
+                    <option value="Fantasia">Fantasia</option>
+                    <option value="Mistério">Mistério</option>
+                    <option value="Sci-fi & Fantasy"> Sci-Fi & Fantasia</option>
+                </select>
+                <button id="limpar-filtro" class="limpar-filtro">limpar filtro</button>
+            </div>
+        </div>
+        <section class="filmes-series">
+            <h2 id="titulo-filmes"> filmes</h2>
+            <div id="filmes-container" class="card-container">
+                <a href="../detalhes-do-filme/index.html" class="card"></a>
+                <a href="../detalhes-do-filme/index.html" class="card"></a>
+                <a href="../detalhes-do-filme/index.html" class="card"></a>
+                <a href="../detalhes-do-filme/index.html" class="card"></a>
+                <a href="../detalhes-do-filme/index.html" class="card"></a>
+                <a href="../detalhes-do-filme/index.html" class="card"></a>
+
+            </div>
+        </section>
+        <section class="filmes-series">
+            <h2 id="titulo-series"> Séries</h2>
+            <div id="series-container" class="card-container">
+                <a href="../detalhes-do-filme/index.html" class="card"></a>
+                <a href="../detalhes-do-filme/index.html" class="card"></a>
+                <a href="../detalhes-do-filme/index.html" class="card"></a>
+                <a href="../detalhes-do-filme/index.html" class="card"></a>
+                <a href="../detalhes-do-filme/index.html" class="card"></a>
+                <a href="../detalhes-do-filme/index.html" class="card"></a>
+
+            </div>
+        </section>
+    </main>
+        <footer>
+            <p>sigam nas redes socias</p>
+            <div class="imgs">
+                <img src="../assets/imgs/mdi_twitter.svg" alt="logo do Twitter">
+                <img src="../assets/imgs/ri_instagram-fill.svg" alt="logo do instagram">
+                <img src="../assets/imgs/mdi_youtube.svg" alt=" logo do Youtube">
+
+            </div>
+        </footer>
+</body>
+    <script src="../scripts/script.js"></script>
+</html>
